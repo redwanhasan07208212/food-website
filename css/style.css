@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Nav bar start */
+.nav-bar {
+    text-align: right;
+    width: 1100px;
+    margin:  0 auto;
+}
+.menu ul li{
+    display: inline-block;
+    font-weight: 800;
+    padding: 0 20px;
+}
+.menu ul li a{
+    color: black;
+    text-decoration: none;
+}
+/* Nav bar end */
+
+/* Container Part Start */
+.container{
+    display: flex;
+}
+.container h1{
+    font-size: 40px;
+    color: gray;
+}
+.container p{
+    color: gray;
+}
+.change-color{
+    color: orange;
+}
+.hero-sec{
+    width: 50%;
+    margin: 5%;
+}
+.hero-sec img{
+    width: 90%;
+}
+.hero-sec a {
+    background-image: linear-gradient(orange, orangered);
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+/* Container Part End */
+/* About Me Section Start */
+#hero-image{
+    width: 58%;
+    margin-left: 150px;
+}
+.about-me{
+    background-image: url(../images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/* About Me Section End */
+/* recipe heading and paragraph part start */
+.recipies{
+    margin-bottom: 2%;
+}
+.recipies h1{
+    text-align: center;
+    color: gray;
+}
+.recipies p{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+/* recipe heading and paragraph part end */
+/* Food Box part start */
+.image-section{
+    width: 20%;
+    margin: 0% 5%;
+    padding: 1%;
+}
+.image-section img{
+    width:100%;
+}
+.image-border{
+    box-shadow: 10px 10px 40px;
+    height: 80%;
+    border-radius: 20px;
+    margin-left: 5%;
+}
+.img-box{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Food Box part start */
+/* Footer Part Start */
+.footer{
+    height: 180px;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 10px;
+    margin-top: 5%;
+}
+.footer h2{
+    text-align: center;
+    padding-top: 2%;
+}
+.footer .network{
+    color: gray;
+}
+.footer p{
+    color: gray;
+    text-align: center;
+}
+/* Footer Part End */
+/* icon part starts */
+.icon{
+    text-align: center;
+    color: rgb(19, 18, 18);
+}
+.icon h3{
+    margin-top: 5%;
+}
+.short{
+    text-align: center;
+    max-width: 100%;
+    height: 10px;
+}
+.short img{
+    width: 40px;
+}
+/* icon part starts */
+
